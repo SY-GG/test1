@@ -1,0 +1,16 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M19.2094 57.1199V47.9919V46.9919H18.2094H15.7303C14.2912 46.9919 13.2616 46.5668 12.5931 45.8997C11.9248 45.2328 11.5 44.207 11.5 42.7743V15.8845C11.5 13.7614 13.2834 12 15.7303 12H54.2697C56.7636 12 58.5 13.7153 58.5 15.8845V42.7781C58.5 44.1424 58.0627 45.1765 57.3705 45.8673C56.678 46.5583 55.6403 46.9957 54.2697 46.9957H29.9485H29.5401L29.2485 47.2815L19.2094 57.1199Z" stroke="black" stroke-width="2"/>
+<path d="M35 31.5004V31.0758C35 29.7007 35.8856 28.9727 36.7712 28.3862C37.6356 27.82 38.5 27.092 38.5 25.7573C38.5 23.8969 36.9398 22.4004 35 22.4004C33.0602 22.4004 31.5 23.8969 31.5 25.7573" stroke="url(#pattern0)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35 31.5004V31.0758C35 29.7007 35.8856 28.9727 36.7712 28.3862C37.6356 27.82 38.5 27.092 38.5 25.7573C38.5 23.8969 36.9398 22.4004 35 22.4004C33.0602 22.4004 31.5 23.8969 31.5 25.7573" stroke="#4D7366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.9935 36.05H35.0061" stroke="url(#pattern1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.9935 36.05H35.0061" stroke="#4D7366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1180_47404" transform="translate(-2.99375) scale(0.0203125 0.015625)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1180_47404" transform="translate(-3.53125) scale(0.0234375 0.015625)"/>
+</pattern>
+<image id="image0_1180_47404" width="344" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAABACAYAAABfnm8CAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEVSURBVHhe7dsxEcMwFAVBOQBDwwQCIwRMIwRtF4LgKzTZbfQQ3PxG23kbADzuNV8AHiawABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRLbzNvcS3p99LmA1v+8x139wwQJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJElvvJBbAKFyxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgMQYF/xrD3Jwm94/AAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
