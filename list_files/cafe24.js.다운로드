@@ -1,1 +1,0 @@
-CAFE24API.init('gyLzoDlsA5AvMjOUyCkDwC');
