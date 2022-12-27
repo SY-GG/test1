@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header style="left: 0px; width: auto; right: 0px">
+      <div class="header_d1">
+        <div class="site_map">
+          <a target="_blank" href="https://www.hyundairentalcare.com/"
+            >현대렌탈케어</a
+          >
+        </div>
+        <div class="menu_util">
+          <div class="xans-element- xans-layout xans-layout-statelogoff">
+            <a href="#" class="log">로그인</a>
+            <a href="#">회원가입</a>
+            <a href="#" class="log">마이페이지</a>
+            <a href="#">장바구니</a>
+          </div>
+        </div>
+      </div>
+      <div class="header_d2">
+        <nav>
+          <div class="left_nav">
+            <a
+              href="/"
+              class="xans-element- xans-layout xans-layout-logotop hlogo swiper-container swiper-container-initialized swiper-container-vertical"
+              ><div
+                class="swiper-wrapper"
+                style="
+                  transform: translate3d(0px, -132px, 0px);
+                  transition-duration: 0ms;
+                "
+              >
+                <div
+                  class="q swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                  data-swiper-slide-index="1"
+                  style="height: 66px"
+                >
+                  <img src="/img/ico_logo_q_b.svg" alt="큐밍 로고" />
+                </div>
+                <div
+                  class="h swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
+                  data-swiper-autoplay="5000"
+                  data-swiper-slide-index="0"
+                  style="height: 66px"
+                >
+                  <img src="/img/ico_logo.svg" alt="현대 렌탈케어 로고" />
+                </div>
+                <div
+                  class="q swiper-slide swiper-slide-active"
+                  data-swiper-slide-index="1"
+                  style="height: 66px"
+                >
+                  <img src="/img/ico_logo_q_b.svg" alt="큐밍 로고" />
+                </div>
+                <div
+                  class="h swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
+                  data-swiper-autoplay="5000"
+                  data-swiper-slide-index="0"
+                  style="height: 66px"
+                >
+                  <img src="/img/ico_logo.svg" alt="현대 렌탈케어 로고" />
+                </div>
+              </div>
+              <span
+                class="swiper-notification"
+                aria-live="assertive"
+                aria-atomic="true"
+              ></span
+            ></a>
+            <div class="nav_menu">
+              <div class="menu_listBox">
+                <ul class="menu_list">
+                  <li class="subNav rental">
+                    <a href="javascript:void(0)">다이렉트렌탈</a>
+                  </li>
+                  <li>
+                    <a href="/product/packageList.html?cate_no=70">패키지</a>
+                  </li>
+                  <li class="subNav prdAll">
+                    <a href="javascript:void(0)">신제품</a>
+                  </li>
+                  <li class="subNav prdAll">
+                    <a href="javascript:void(0)">베스트</a>
+                  </li>
+
+                  <!--<li><a href="javascript:void(0)" class="flex"><span>LIVE</span><img src="/img/onair_ic.svg" alt="큐밍 온에어"></a></li>-->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="right_nav">
+            <!-- 검색 버튼 -->
+            <a href="javascript:void(0)" class="search_btn">
+              <img src="/img/search_ic.svg" alt="search" />검색버튼
+            </a>
+          </div>
+        </nav>
+        <form
+          id="searchBarForm"
+          name=""
+          action="/product/search.html"
+          method="get"
+          target="_self"
+          enctype="multipart/form-data"
+        >
+          <input
+            id="banner_action"
+            name="banner_action"
+            value=""
+            type="hidden"
+          />
+          <div
+            class="xans-element- xans-layout xans-layout-searchheader search_box"
+          >
+            <!--
+            $product_page=/product/detail.html
+            $category_page=/product/list.html
+            -->
+            <div>
+              <fieldset>
+                <legend>검색</legend>
+                <label class="ePlaceholder" title="검색어를 입력해주세요."
+                  ><input
+                    id="keyword"
+                    name="keyword"
+                    fw-filter=""
+                    fw-label="검색어"
+                    fw-msg=""
+                    class="inputTypeText"
+                    placeholder="검색어를 입력해주세요."
+                    onmousedown="SEARCH_BANNER.clickSearchForm(this)"
+                    value=""
+                    type="text"
+                /></label>
+                <input
+                  type="image"
+                  class="search_action"
+                  src="/img/pop_search_ic.svg"
+                  alt="검색"
+                  onclick="SEARCH_BANNER.submitSearchBanner(this); return false;"
+                />
+                &nbsp;
+              </fieldset>
+
+              <div class="search_wordBox">
+                <div class="popluar">
+                  <strong>인기 검색어</strong>
+                  <ul>
+                    <li>
+                      <strong>1</strong
+                      ><a
+                        href="/product/search.html?keyword=%EC%A0%95%EC%88%98%EA%B8%B0"
+                        >정수기</a
+                      >
+                    </li>
+                    <li>
+                      <strong>2</strong
+                      ><a
+                        href="/product/search.html?keyword=%EB%8D%94%EC%8A%AC%EB%A6%BC%EB%A7%88%EC%9D%B4%ED%95%8F"
+                        >더슬림마이핏</a
+                      >
+                    </li>
+                    <li>
+                      <strong>3</strong
+                      ><a
+                        href="/product/search.html?keyword=%EC%9D%8C%EC%8B%9D%EB%AC%BC%EC%B2%98%EB%A6%AC%EA%B8%B0"
+                        >음식물처리기</a
+                      >
+                    </li>
+                    <li>
+                      <strong>4</strong
+                      ><a
+                        href="/product/search.html?keyword=%EB%8D%94%EC%8A%AC%EB%A6%BC%EB%AF%B8%EB%8B%88"
+                        >더슬림미니</a
+                      >
+                    </li>
+                    <li>
+                      <strong>5</strong
+                      ><a
+                        href="/product/search.html?keyword=%ED%99%88%EC%BC%80%EC%96%B4"
+                        >홈케어</a
+                      >
+                    </li>
+                    <li>
+                      <strong>6</strong
+                      ><a
+                        href="/product/search.html?keyword=%EB%8D%94%EC%B9%B4%ED%8E%98%ED%81%90%EB%B0%8D%EC%8A%A4%ED%83%80"
+                        >더카페큐밍스타</a
+                      >
+                    </li>
+                    <li>
+                      <strong>7</strong
+                      ><a
+                        href="/product/search.html?keyword=%EB%8D%94%EC%8A%AC%EB%A6%BC%EC%95%84%EC%9D%B4%EC%8A%A4"
+                        >더슬림아이스</a
+                      >
+                    </li>
+                    <li>
+                      <strong>8</strong
+                      ><a
+                        href="/product/search.html?keyword=%EB%8D%94%EC%8A%AC%EB%A6%BC%EB%B2%A0%EC%9D%B4%EC%A7%81"
+                        >더슬림베이직</a
+                      >
+                    </li>
+                    <li>
+                      <strong>9</strong
+                      ><a
+                        href="/product/search.html?keyword=%EB%8D%94%ED%93%A8%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%A7%80"
+                        >더퓨어베이지</a
+                      >
+                    </li>
+                    <li>
+                      <strong>10</strong
+                      ><a
+                        href="/product/search.html?keyword=%EC%A3%BC%EB%B0%A9%EA%B0%80%EC%A0%84"
+                        >주방가전</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="xans-element- xans-search xans-search-hotkeyword recommend"
+                >
+                  <strong>추천 검색어</strong>
+                  <ul>
+                    <li class="xans-record-">
+                      <strong>1</strong
+                      ><a href="/product/search.html?keyword=싱크케어"
+                        >싱크케어</a
+                      >
+                    </li>
+                    <li class="xans-record-">
+                      <strong>2</strong
+                      ><a href="/product/search.html?keyword=고양이화장실"
+                        >고양이화장실</a
+                      >
+                    </li>
+                    <li class="xans-record-">
+                      <strong>3</strong
+                      ><a href="/product/search.html?keyword=비데">비데</a>
+                    </li>
+                    <li class="xans-record-">
+                      <strong>4</strong
+                      ><a href="/product/search.html?keyword=큐밍블랙"
+                        >큐밍블랙</a
+                      >
+                    </li>
+                    <li class="xans-record-">
+                      <strong>5</strong
+                      ><a href="/product/search.html?keyword=매트리스"
+                        >매트리스</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button type="button" class="search_close">검색창 닫기</button>
+            </div>
+          </div>
+        </form>
+        <div class="subGnb-wrapper">
+          <div class="sub-cate-menu rental">
+            <div class="cate-m-title">
+              <h4>다이렉트 렌탈</h4>
+            </div>
+
+            <div class="cate-m-listWrap">
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=68">정수기</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=87"
+                        >직수형정수기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=86"
+                        >얼음정수기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=85"
+                        >일반형정수기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=89"
+                        >대용량정수기</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=72">공기청정기</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=90"
+                        >10~20평형</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=92"
+                        >20~35평형</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=73"
+                      >비데/샤워필터</a
+                    >
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=111">비데</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=112"
+                        >워터케어</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=78">일반가전</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=126">건조기</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=127">세탁기</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=128">에어컨</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=129"
+                        >의류관리기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=143">인덕션</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=76">주방가전</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=117"
+                        >김치냉장고</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=118">냉장고</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=119"
+                        >식기세척기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=120"
+                        >음식물처리기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=121">제빙기</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=122"
+                        >커피머신</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=79">펫가전</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=130"
+                        >고양이화장실</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=131"
+                        >펫드라이어룸</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=77">뷰티/헬스</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=123"
+                        >안마의자</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=124"
+                        >통증치료 의료기기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=125"
+                        >헬스가전</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/rentalList.html?cate_no=75"
+                      >매트리스/프레임</a
+                    >
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=113">K사이즈</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=114"
+                        >LK사이즈</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=115">Q사이즈</a>
+                    </li>
+                    <li>
+                      <a href="/product/rentalList.html?cate_no=116"
+                        >SS사이즈</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-cate-menu prdAll">
+            <div class="cate-m-title">
+              <h4>제품</h4>
+            </div>
+            <div class="cate-m-listWrap">
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4><a href="/product/list.html?cate_no=53">정수기</a></h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/list.html?cate_no=109">직수형정수기</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=108">얼음정수기</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=110">일반형정수기</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=107">대용량정수기</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/list.html?cate_no=55">공기청정기</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/list.html?cate_no=93">10~20평형</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=94">20~35평형</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/list.html?cate_no=56">비데/샤워필터</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li><a href="/product/list.html?cate_no=95">비데</a></li>
+                    <li>
+                      <a href="/product/list.html?cate_no=96">워터케어</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4><a href="/product/list.html?cate_no=61">일반가전</a></h4>
+
+                  <ul class="cate-sub-list">
+                    <li><a href="/product/list.html?cate_no=132">건조기</a></li>
+                    <li><a href="/product/list.html?cate_no=133">세탁기</a></li>
+                    <li><a href="/product/list.html?cate_no=134">에어컨</a></li>
+                    <li>
+                      <a href="/product/list.html?cate_no=135">의류관리기</a>
+                    </li>
+                    <li><a href="/product/list.html?cate_no=144">인덕션</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4><a href="/product/list.html?cate_no=59">주방가전</a></h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/list.html?cate_no=101">김치냉장고</a>
+                    </li>
+                    <li><a href="/product/list.html?cate_no=102">냉장고</a></li>
+                    <li>
+                      <a href="/product/list.html?cate_no=103">식기세척기</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=104">음식물처리기</a>
+                    </li>
+                    <li><a href="/product/list.html?cate_no=138">제빙기</a></li>
+                    <li>
+                      <a href="/product/list.html?cate_no=139">커피머신</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4><a href="/product/list.html?cate_no=63">펫가전</a></h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/list.html?cate_no=136">고양이화장실</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=137">펫드라이어룸</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4><a href="/product/list.html?cate_no=60">뷰티/헬스</a></h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/list.html?cate_no=105">안마의자</a>
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=106"
+                        >통증치료 의료기기</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/product/list.html?cate_no=140">헬스가전</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/list.html?cate_no=57">매트리스/프레임</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li><a href="/product/list.html?cate_no=97">K사이즈</a></li>
+                    <li>
+                      <a href="/product/list.html?cate_no=98">LK사이즈</a>
+                    </li>
+                    <li><a href="/product/list.html?cate_no=99">Q사이즈</a></li>
+                    <li>
+                      <a href="/product/list.html?cate_no=100">SS사이즈</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/suppliesList.html?cate_no=141"
+                      >정수기필터</a
+                    >
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/suppliesList.html?cate_no=141"
+                        >정수기필터</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cate-m-list">
+                <div class="cate-m-box">
+                  <h4>
+                    <a href="/product/suppliesList.html?cate_no=142">원두</a>
+                  </h4>
+
+                  <ul class="cate-sub-list">
+                    <li>
+                      <a href="/product/suppliesList.html?cate_no=142">원두</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

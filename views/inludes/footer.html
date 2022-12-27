@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/main.css" />
+  </head>
+
+  <body id="main">
+    <div id="footer">
+      <div class="inner">
+        <!--
+        <span module="Layout_LogoBottom">
+            <a href="/index.html">{$mall_name}</a>
+        </span>
+
+        <div module="Layout_footer">
+            <ul class="utilMenu">
+                <li class="home"><a href="/index.html">홈</a></li>
+                <li><a href="/shopinfo/company.html">회사소개</a></li>
+                <li><a href="/member/agreement.html">이용약관</a></li>
+                <li><a href="/member/privacy.html"><strong>개인정보처리방침</strong></a></li>
+                <li><a href="/shopinfo/guide.html">이용안내</a></li>
+                <div module="Layout_ReferenceCurrencyList" class="list">
+                    <button type="button" class="toggle" id="reference_currency_button">
+                        <span class="btn-global">참조화폐</span>
+                        <span class="currencyNow">{$current_reference_currency_code} {$current_reference_currency_symbol}</span>
+                    </button>
+                    <ul module="Layout_ReferenceCurrencyListitem" class="multicurrencylistitem" id="reference_currency_list">
+                        <li class="">
+                            <a href="#">
+                                <span class="name">{$reference_currency_code}</span>
+                                <span class="unit">{$reference_currency_symbol}</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#">
+                                <span class="name">{$reference_currency_code}</span>
+                                <span class="unit">{$reference_currency_symbol}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </ul>
+            <p class="address">
+                <span>법인명(상호) : {$company_name} </span> <span>대표자(성명) : {$president_name}</span> <span>사업자 등록번호 안내 : [{$company_regno}]</span> <span>통신판매업 신고 {$network_regno}</span> <span>{$biz_no_link}</span> <br />
+                <span>전화 : {$phone}</span> <span>팩스 : {$fax}</span> <span>주소 : {$mall_zipcode} {$mall_addr1} {$mall_addr2}</span><br />
+                <span class="{$cpo_email|display}">개인정보보호책임자 : <a href="mailto:{$cpo_email}">{$cpo_name}({$cpo_email})</a></span><br />
+                <span>Contact <strong><a href="mailto:{$email}">{$email}</a></strong> for more information.</span>
+            </p>
+            <p class="copyright">Copyright &copy; <strong>{$mall_name}</strong>. All rights reserved.</p>
+            <p class="hosting"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/layout/logo_cafe24.png" alt="hosting by cafe24 카페24(주)" /></p>
+        </div>
+	-->
+
+        <div class="xans-element- xans-layout xans-layout-footer footer-box">
+          <div class="f1-box">
+            <div class="f1-img">
+              <img src="/img/logo_w.svg" alt="현대 화이트 로고" />
+              &nbsp;
+            </div>
+
+            <p class="copyright">
+              COPYRIGHT©<strong>현대큐밍 다이렉트몰</strong>.<br />All RIGHTS
+              RESERVED.
+            </p>
+          </div>
+          <div class="f2-box">
+            <div class="f2-1depth">
+              <div class="util_link">
+                <ul class="util_list">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.hyundairentalcare.com/aboutus/intro/group"
+                      >회사소개</a
+                    >
+                  </li>
+                  <li><a href="/member/agreement.html">이용약관</a></li>
+                  <li>
+                    <a href="/board/urgency/urgency.html">제휴 및 상품제안</a>
+                  </li>
+                </ul>
+                <ul class="util_list">
+                  <li>
+                    <a href="/member/privacy.html"
+                      ><strong>개인정보처리방침</strong></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.ehyundai.com/newPortal/group/MAIN.do"
+                      >현대백화점그룹</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.hyundairentalcare.com/b2b"
+                      >B2B 문의</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="util-sns">
+                <div class="util-snsLink">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/hyundaiquming"
+                    ><img src="/img/s_facebook_ic.svg" alt="페이스북"
+                  /></a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/hyundaiquming/?hl=ko"
+                    ><img src="/img/s_insta_ic.svg" alt="인스타그램"
+                  /></a>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCiTUFlDHXI7Bow39nFZ1L4A"
+                    ><img src="/img/s_youtube_ic.svg" alt="유튜브"
+                  /></a>
+                  <a target="_blank" href="https://blog.naver.com/qumingmall"
+                    ><img src="/img/s_blog_ic.svg" alt="블로그"
+                  /></a>
+                  <a target="_blank" href="https://tv.naver.com/hyundaiquming"
+                    ><img src="/img/s_video_ic.svg" alt="네이버Tv"
+                  /></a>
+                </div>
+                <div class="util-app">
+                  <span>APP 다운로드</span>
+                  <ul>
+                    <li>
+                      <a
+                        href="javascript:alert('%EC%A4%80%EB%B9%84%EC%A4%91%EC%9D%B8%20%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%85%EB%8B%88%EB%8B%A4.');"
+                        ><img src="/img/app_down1.png" alt="app Down"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:alert('%EC%A4%80%EB%B9%84%EC%A4%91%EC%9D%B8%20%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%85%EB%8B%88%EB%8B%A4.');"
+                        ><img src="/img/app_down2.png" alt="app Down"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="util_btn">
+              <a href="javascript:void(0)" class="safe-key"
+                >본인인증 (Safe-key 발급)</a
+              >
+              <div class="fs-box">
+                <a
+                  href="javascript:void(0)"
+                  class="family-site"
+                  data-target="dropdown-site"
+                  >패밀리 사이트</a
+                >
+                <ul class="dropdown-content" id="dropdown-site" tabindex="0">
+                  <li tabindex="0">
+                    <a
+                      href="http://www.ehyundai.com/newPortal/ir/main.do"
+                      target="_blank"
+                      >현대백화점그룹</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a
+                      href="https://www.ehyundai.com/newPortal/index.do"
+                      target="_blank"
+                      >현대백화점</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hyundaihmall.com" target="_blank"
+                      >현대홈쇼핑</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://hyundaigreenfood.com" target="_blank"
+                      >현대그린푸드</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://www.hyundaicatering.co.kr" target="_blank"
+                      >현대캐터링 시스템</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://www.cnsfoodsystem.co.kr" target="_blank"
+                      >C&amp;S푸드시스템</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a
+                      href="https://www.handsome.co.kr/ko/main.do"
+                      target="_blank"
+                      >한섬</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hyundailivart.co.kr" target="_blank"
+                      >현대리바트</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://www.hyundailnc.com" target="_blank"
+                      >현대L&amp;C</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hddfs.com" target="_blank"
+                      >현대백화점면세점</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://home.hyundaidreamtour.com" target="_blank"
+                      >현대드림투어</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hyundairentalcare.com" target="_blank"
+                      >현대렌탈케어</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hyundaifuturenet.co.kr" target="_blank"
+                      >현대퓨처넷</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hyundaimedia.com" target="_blank"
+                      >현대미디어</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.hcn.co.kr/index.do" target="_blank"
+                      >현대HCN</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="https://www.everdigm.com" target="_blank"
+                      >에버다임</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://www.hyundai-ite.com" target="_blank"
+                      >현대IT&amp;E</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://www.hyundaibioland.co.kr" target="_blank"
+                      >현대바이오랜드</a
+                    >
+                  </li>
+                  <li tabindex="0">
+                    <a href="http://www.ezwel.com" target="_blank">이지웰</a>
+                  </li>
+                  <li tabindex="0">
+                    <a
+                      href="http://www.ehyundai.com/newPortal/sc/main/main.do"
+                      target="_blank"
+                      >현대백화점그룹 사회복지재단</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="escrow"
+                onclick="window.open('https://pg.nicepay.co.kr/issue/IssueEscrow.jsp?Mid=CG0012008m&amp;CoNo=8188700076','escrowHelp','width=500,height=380,scrollbars=auto,resizable=yes')"
+                >구매안전(에스크로) 서비스</a
+              >
+            </div>
+          </div>
+          <div class="f3-box">
+            <p class="address">
+              <span class="flex">주식회사 현대렌탈케어</span>
+              <span class="flex">대표이사 권경로</span>
+              <span>hrcs@hyundairentalcare.co.kr</span>
+              <span>서울특별시 강동구 올림픽로 753 우진빌딩 현대렌탈케어</span>
+              <span>통신판매번호 제 2015-서울강동-1414호</span>
+              <span>사업자 등록번호 : 818-87-00076</span>
+            </p>
+            <ul class="date_sc">
+              <li>
+                <div class="date">
+                  <span class="tit">평일(월~금)</span>
+                  <span>09:00 ~ 18:00</span>
+                </div>
+              </li>
+              <li>
+                <div class="date">
+                  <span class="tit">주말(토요일)</span>
+                  <span>09:00 ~ 13:00</span>
+                </div>
+              </li>
+              <li>
+                <div class="date">
+                  <span class="tit">일요일(공휴일)</span>
+                  <span>휴무</span>
+                </div>
+              </li>
+            </ul>
+            <p class="call_center">
+              고객센터(콜센터) 이용시 통신요금이 부과됩니다.<br />고객센터
+              1800-8888, 수납전용 1800-2280
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
