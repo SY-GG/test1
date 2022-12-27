@@ -126,7 +126,7 @@
   transform: translateY(-50%);
   width: 10px;
   height: 10px;
-  background: url("/img/menu_arrow.svg") 50% 50% no-repeat;
+  background: url("../img/menu_arrow.svg") 50% 50% no-repeat;
 }
 .xans-product-menupackage .best_title h2 {
   margin-top: 20px;
@@ -516,11 +516,11 @@ input:-webkit-autofill:active {
   margin-bottom: 0 !important;
 }
 .ui-datepicker-header .ui-datepicker-prev .ui-icon-circle-triangle-w {
-  background-image: url("/img/left_arrow.svg");
+  background-image: url("../img/left_arrow.svg");
   background-position: center;
 }
 .ui-datepicker-header .ui-datepicker-next .ui-icon-circle-triangle-e {
-  background-image: url("/img/right_arrow.svg");
+  background-image: url("../img/right_arrow.svg");
   background-position: center;
 }
 .ab_center {
@@ -761,7 +761,7 @@ header .header_d2 nav .left_nav .nav_menu .menu_ic {
   display: block;
   width: 30px;
   height: 30px;
-  background: url("/img/menu_ic.svg") 50% 50% no-repeat;
+  background: url("../img/menu_ic.svg") 50% 50% no-repeat;
 }
 header .header_d2 nav .left_nav .nav_menu,
 header .header_d2 nav .left_nav .nav_menu .menu_listBox ul.menu_list {
@@ -1090,7 +1090,7 @@ header .header_d2 nav .right_nav .search_btn img {
 .help_bg {
   width: 100%;
   height: 300px;
-  background: url("/img/help_bg.png") no-repeat;
+  background: url("../img/help_bg.png") no-repeat;
   background-size: cover;
 }
 .help_bg > .bg_tit {
@@ -1153,10 +1153,10 @@ header .header_d2 nav .right_nav .search_btn img {
   background-size: 24px 24px;
 }
 .help_bg > .bg_tit .date_desc span.date {
-  background: url("/img/help_date.svg") 0 50% no-repeat;
+  background: url("../img/help_date.svg") 0 50% no-repeat;
 }
 .help_bg > .bg_tit .date_desc span.time {
-  background: url("/img/help_time.svg") 0 50% no-repeat;
+  background: url("../img/help_time.svg") 0 50% no-repeat;
 }
 .help_menuList {
   padding: 50px 0 0;
@@ -1380,7 +1380,7 @@ header .header_d2 nav .right_nav .search_btn img {
   font-size: 18px;
   line-height: 22.5px;
   color: #000000;
-  background: url("/img/noboard.svg") 50% 65px no-repeat;
+  background: url("../img/noboard.svg") 50% 65px no-repeat;
 }
 .event_tab ul {
   display: flex;
@@ -1701,7 +1701,7 @@ header .header_d2 nav .right_nav .search_btn img {
   padding: 0 0 0 17px;
   margin: 0 0 0 7px;
   color: #757575;
-  background: url("/img/path_ic.svg") no-repeat 0 50%;
+  background: url("../img/path_ic.svg") no-repeat 0 50%;
 }
 .path li:first-child {
   background: none;
@@ -2436,7 +2436,7 @@ form-base .row::after,
   top: 50%;
   left: -17.5px;
   transform: translateY(-50%);
-  background: url("/img/state_arrow.svg") no-repeat;
+  background: url("../img/state_arrow.svg") no-repeat;
   background-size: 35px 35px;
   width: 35px;
   height: 35px;
@@ -5137,10 +5137,10 @@ html:lang(zh-tw) .txt11 {
   left: 0;
   width: 24px;
   height: 24px;
-  background: url("/img/check_off.svg") no-repeat;
+  background: url("../img/check_off.svg") no-repeat;
 }
 .ec-base-chk input:checked + .checkbox {
-  background: url("/img/check_on.svg") no-repeat;
+  background: url("../img/check_on.svg") no-repeat;
   -webkit-appearance: none;
 }
 input,
@@ -5160,26 +5160,26 @@ input[type="checkbox"] {
   -webkit-appearance: none;
 }
 input[type="radio"] {
-  background: url("/img/radio_off.svg") no-repeat;
+  background: url("../img/radio_off.svg") no-repeat;
 }
 input[type="radio"]:checked {
-  background: url("/img/radio_on.svg") no-repeat;
+  background: url("../img/radio_on.svg") no-repeat;
   -webkit-appearance: none;
 }
 input[type="radio"]:not(:checked):disabled {
-  background: url("/img/radio_on.svg") no-repeat;
+  background: url("../img/radio_on.svg") no-repeat;
   -webkit-appearance: none;
   opacity: 0.2;
 }
 input[type="checkbox"] {
-  background: url("/img/check_off.svg") no-repeat;
+  background: url("../img/check_off.svg") no-repeat;
 }
 input[type="checkbox"]:checked {
-  background: url("/img/check_on.svg") no-repeat;
+  background: url("../img/check_on.svg") no-repeat;
   -webkit-appearance: none;
 }
 input[type="checkbox"]:not(:checked):disabled {
-  background: url("/img/check_on.svg") no-repeat;
+  background: url("../img/check_on.svg") no-repeat;
   -webkit-appearance: none;
   opacity: 0.2;
 }
@@ -5197,7 +5197,7 @@ input[type="checkbox"] + label {
   margin: 0 4px 0 2px;
 }
 select {
-  background: url("/img/select_down.svg") right 20px top 50% no-repeat;
+  background: url("../img/select_down.svg") right 20px top 50% no-repeat;
   -webkit-appearance: none;
 }
 textarea {
@@ -8110,7 +8110,7 @@ a.btnAgree {
   border: none;
   border-bottom: 1px solid #000000;
   padding: 130px 0 60px;
-  background: url("/img/noboard.svg") top 65px left 50% no-repeat;
+  background: url("../img/noboard.svg") top 65px left 50% no-repeat;
   background-size: 55px 48px;
   font-weight: 400;
   font-size: 18px;
@@ -8187,11 +8187,11 @@ a.btnAgree {
   padding: 0;
 }
 .ec-base-table.bd-table table td div.detail-ui .du-left span.date {
-  background: url("/img/board_date.svg") 0 50% no-repeat;
+  background: url("../img/board_date.svg") 0 50% no-repeat;
   background-size: 24px 24px;
 }
 .ec-base-table.bd-table table td div.detail-ui .du-left span.view {
-  background: url("/img/board_view.svg") 0 50% no-repeat;
+  background: url("../img/board_view.svg") 0 50% no-repeat;
   background-size: 24px 24px;
 }
 .ec-base-table.bd-table table td div.detail-ui .du-right.flex {
@@ -8226,7 +8226,7 @@ a.btnAgree {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-  background: url("/img/board_file.svg") 0 50% no-repeat;
+  background: url("../img/board_file.svg") 0 50% no-repeat;
   background-size: 24px 24px;
 }
 .ec-base-table.bd-table.result {
@@ -8412,7 +8412,7 @@ a.btnAgree {
   line-height: 50px;
   border: 1px solid #dddddd;
   box-sizing: border-box;
-  background: #ffffff url("/img/select_down.svg") right 20px top 50% no-repeat;
+  background: #ffffff url("../img/select_down.svg") right 20px top 50% no-repeat;
   background-size: 24px 24px;
   outline: none;
   font-weight: 400;
@@ -8442,7 +8442,7 @@ a.btnAgree {
   line-height: 50px;
   border: 1px solid #dddddd;
   box-sizing: border-box;
-  background: #fafafa url("/img/select_down.svg") right 20px top 50% no-repeat;
+  background: #fafafa url("../img/select_down.svg") right 20px top 50% no-repeat;
   background-size: 24px 24px;
   outline: none;
   font-weight: 400;
@@ -8685,7 +8685,7 @@ input[type="checkbox"] + label {
   border: none;
   border-bottom: 1px solid #000000;
   padding: 130px 0 60px;
-  background: url("/img/noboard.svg") top 65px left 50% no-repeat;
+  background: url("../img/noboard.svg") top 65px left 50% no-repeat;
   background-size: 55px 48px;
   font-weight: 400;
   font-size: 18px;
@@ -8738,7 +8738,7 @@ input[type="checkbox"] + label {
   border: none;
   border-bottom: 1px solid #000000;
   padding: 130px 0 60px;
-  background: url("/img/noboard.svg") top 65px left 50% no-repeat;
+  background: url("../img/noboard.svg") top 65px left 50% no-repeat;
   background-size: 55px 48px;
   font-weight: 400;
   font-size: 18px;
@@ -8846,7 +8846,7 @@ input[type="checkbox"] + label {
   border: none;
   border-bottom: 1px solid #000000;
   padding: 130px 0 60px;
-  background: url("/img/noboard.svg") top 65px left 50% no-repeat;
+  background: url("../img/noboard.svg") top 65px left 50% no-repeat;
   background-size: 55px 48px;
   font-weight: 400;
   font-size: 18px;
@@ -9421,7 +9421,7 @@ input[type="checkbox"] + label {
   font-size: 0;
 }
 .rental_order.ec-base-table table td .equip_date #hopedate {
-  background: url("/img/data_ic.svg") top 50% right 20px no-repeat;
+  background: url("../img/data_ic.svg") top 50% right 20px no-repeat;
   background-size: 24px 24px;
   cursor: pointer;
 }
@@ -9458,7 +9458,7 @@ input[type="checkbox"] + label {
   width: 24px;
   height: 24px;
   border: none;
-  background: url("/img/radio_off.svg") no-repeat;
+  background: url("../img/radio_off.svg") no-repeat;
   background-size: 24px 24px;
   -webkit-appearance: none;
   pointer-events: visible;
@@ -9469,7 +9469,7 @@ input[type="checkbox"] + label {
   width: 24px;
   height: 24px;
   border: none;
-  background: url("/img/radio_on.svg") no-repeat;
+  background: url("../img/radio_on.svg") no-repeat;
   background-size: 24px 24px;
   -webkit-appearance: none;
   pointer-events: visible;
@@ -10300,7 +10300,7 @@ input[type="checkbox"] + label {
   line-height: 50px;
   border: 1px solid #dddddd;
   box-sizing: border-box;
-  background: #fafafa url("/img/select_down.svg") right 20px top 50% no-repeat;
+  background: #fafafa url("../img/select_down.svg") right 20px top 50% no-repeat;
   background-size: 24px 24px;
   outline: none;
   font-weight: 400;
@@ -10330,7 +10330,7 @@ input[type="checkbox"] + label {
   line-height: 50px;
   border: 1px solid #dddddd;
   box-sizing: border-box;
-  background: #fafafa url("/img/select_down.svg") right 20px top 50% no-repeat;
+  background: #fafafa url("../img/select_down.svg") right 20px top 50% no-repeat;
   background-size: 24px 24px;
   outline: none;
   font-weight: 400;
@@ -11377,7 +11377,7 @@ input[type="checkbox"] + label {
   font-size: 18px;
   line-height: 22.5px;
   color: #000000;
-  background: url("/img/noboard.svg") 50% 107.5px no-repeat;
+  background: url("../img/noboard.svg") 50% 107.5px no-repeat;
 }
 .ec-base-table.regular-table table {
   margin: 0;
@@ -12459,7 +12459,7 @@ h3 {
   font-size: 16px;
   color: #ffffff;
   text-align: left;
-  background: transparent url("/img/select_arrow.svg") right 20px top 50% no-repeat;
+  background: transparent url("../img/select_arrow.svg") right 20px top 50% no-repeat;
 }
 #footer .inner .footer-box > div.f2-box .util_btn select option {
   color: #111111;
@@ -12468,7 +12468,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 15px 0;
-  background: url("/img/footer_bg.png") 50% 50% no-repeat;
+  background: url("../img/footer_bg.png") 50% 50% no-repeat;
   background-size: cover;
 }
 #footer .inner .footer-box > div.f3-box p.address span.flex {
@@ -12533,10 +12533,10 @@ h3 {
   transition: all 0.3s;
 }
 .quick > ul > li.menu > a {
-  background: #ea7ad1 url("/img/quick_menu.png") 50% 50% no-repeat;
+  background: #ea7ad1 url("../img/quick_menu.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu.selected > a {
-  background: #000000 url("/img/quick_close.png") 50% 50% no-repeat;
+  background: #000000 url("../img/quick_close.png") 50% 50% no-repeat;
   border-color: #000000;
 }
 .quick > ul > li.up a {
@@ -12595,52 +12595,52 @@ h3 {
   border-radius: 50%;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_01 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate01.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate01.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_02 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate02.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate02.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_03 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate03.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate03.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_04 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate04.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate04.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_05 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate05.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate05.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_06 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate06.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate06.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_07 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate07.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate07.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_08 a .cate_box {
-  background: #f3f3f3 url("/img/main_cate08.png") 50% 50% no-repeat;
+  background: #f3f3f3 url("../img/main_cate08.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_01:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate01w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate01w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_02:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate02w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate02w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_03:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate03w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate03w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_04:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate04w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate04w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_05:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate05w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate05w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_06:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate06w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate06w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_07:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate07w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate07w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li.cate_08:hover a .cate_box {
-  background: #4d7366 url("/img/main_cate08w.png") 50% 50% no-repeat;
+  background: #4d7366 url("../img/main_cate08w.png") 50% 50% no-repeat;
 }
 .quick > ul > li.menu .quick_prdList ul li a span {
   display: block;
@@ -12933,7 +12933,7 @@ body.keyboard-focused .dropdown-content li:focus {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background: url("/img/notice_down.svg") no-repeat;
+  background: url("../img/notice_down.svg") no-repeat;
   background-size: 20px 20px;
   transition: all 0.3s ease;
 }
