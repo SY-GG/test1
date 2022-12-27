@@ -1,0 +1,17 @@
+body {
+    min-width: 100%;
+}
+
+#wrap {
+  margin: 0 auto;
+  margin-top: 130px;
+  width: 90%;
+  position: relative;
+}
+
+.quick {
+  z-index: 99;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+}
